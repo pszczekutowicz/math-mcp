@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "math-server": {
+      "type": "stdio",
+      "command": "bun",
+      "args": [
+        "src/main.ts"
+      ]
+    }
+  },
+  "inputs": []
+}

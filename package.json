@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/mathjs": "^9.4.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "mathjs": "^14.6.0",
+    "zod": "^3"
+  }
+}
