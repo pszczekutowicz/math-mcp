@@ -23,5 +23,12 @@ server.registerTool("evaluate",
   }
 );
 
+const shutdown = async () => {
+  await server.close()
+  process.exit(0)
+}
+process.on("SIGINT", shutdown)
+process.on("SIGTERM", shutdown)
+
 const transport = new StdioServerTransport()
 await server.connect(transport)

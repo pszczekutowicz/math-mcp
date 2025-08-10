@@ -2,10 +2,8 @@
   "servers": {
     "math-server": {
       "type": "stdio",
-      "command": "bun",
-      "args": [
-        "src/main.ts"
-      ]
+      "command": "docker",
+      "args": ["run", "--interactive", "--rm", "math-mcp"] 
     }
   },
   "inputs": []
